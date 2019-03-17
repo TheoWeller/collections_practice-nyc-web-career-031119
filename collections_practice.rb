@@ -42,7 +42,7 @@ array.map do |element|
   if element != "feet"
   element + "s"
 else
-  return "feet"
+  element = "feet"
 end
 end
 end
