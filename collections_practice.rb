@@ -41,6 +41,8 @@ def add_s(array)
 array.map do |element|
   if element != "feet"
   element + "s"
+else
+  return "feet"
 end
 end
 end
