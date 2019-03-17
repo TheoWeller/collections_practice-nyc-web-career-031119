@@ -38,11 +38,11 @@ array.sum
 end
 
 def add_s(array)
-array.map do |element|
-  if element != "feet"
-  element + "s"
-else
-  element = "feet"
-end
-end
+  array.map do |element|
+    if element != "feet"
+      element + "s"
+    else
+      element = "feet"
+    end
+  end
 end
