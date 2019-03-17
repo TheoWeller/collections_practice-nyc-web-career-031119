@@ -36,3 +36,10 @@ end
 def sum_array(array)
 array.sum
 end
+
+def add_s(array)
+array.map do |element|
+  if element !== "feet"
+  element + "s"
+end
+end
