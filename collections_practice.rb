@@ -8,6 +8,7 @@ array.sort.reverse
 end
 
 def sort_array_char_count(array)
-array.sort_by do |element|
-  element.length
+  array.sort_by do |element|
+    element.length
+  end
 end
